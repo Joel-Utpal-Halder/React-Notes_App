@@ -30,7 +30,7 @@ function App() {
       <h1 className="text-3xl font-bold text-blue-600 mb-6">Notes App</h1>
       {/* Pass addNote function to NoteForm.jsx */}
       <NoteForm onAdd={addNote} /> 
-      {/* Pass these to NoteList.jsx */}
+      {/* Pass notes and onDelete function to NoteList.jsx */}
       <NoteList notes={notes} onDelete={deleteNote} />
     </div>
   );
